@@ -19,7 +19,7 @@
             Visión
           </h2>
           <p class="text-[18px]" data-aos="fade-right" data-aos-delay="400" data-aos-duration="600">
-            Para el 2025, ROKA será una empresa reconocida en el mercado local por su
+            Para el 2028, ROKA será una empresa reconocida en el mercado local por su
             capacidad innovadora, su alta competitividad, su liderazgo y su contribución al desarrollo sostenible de las copropiedades en la prestación de servicios de Administración de Propiedad Horizontal de conformidad con los requisitos de Ley.
           </p>
         </div>
@@ -30,7 +30,7 @@
 
 <style scoped>
 .container-mision {
-  background: url("../assets/mision.jpg") bottom no-repeat;
+  background: url("../assets/mision.jpg") top no-repeat;
   background-size: cover;
   height: 100vh;
 }

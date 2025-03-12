@@ -16,7 +16,7 @@ AOS.init({
 <template>
   <section id="inicio" class="container-hero ">
     <div class="container h-full flex items-center">
-      <h1 class="max-w-[800px]  text-[22px] md:text-[38px] text-white font-semibold" data-aos="fade-right" data-aos-duration="600">
+      <h1 class="max-w-[800px]  text-[22px] md:text-[34px] text-white title font-semibold" data-aos="fade-right" data-aos-duration="600">
         Bienvenido a <span class="font-bold">ROKA</span>, donde gestionamos, protegemos y optimizamos su propiedad
         horizontal con eficiencia y compromiso.
       </h1>
@@ -31,7 +31,9 @@ AOS.init({
   background-size: cover;
   height: 100vh;
 }
-
+.title{
+  line-height: normal;
+}
 @media only screen and (max-width: 768px) {
   .container-hero{
     height: calc(100vh - 180px);

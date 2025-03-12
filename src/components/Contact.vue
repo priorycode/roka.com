@@ -53,7 +53,7 @@ import { Facebook, Instagram, MapPin, Mail, Globe } from 'lucide-vue-next';
       >
         <div class="flex flex-col gap-6">
           <a
-              href="https://maps.app.goo.gl/KLtgkqfBxPd9BQpo7"
+              href="https://maps.app.goo.gl/Nhu2jRyejd9vf36a9"
               target="_blank"
               class="flex items-center gap-8 text-[14px] md:text-[20px] text-white"
               data-aos="fade-up"
@@ -61,7 +61,7 @@ import { Facebook, Instagram, MapPin, Mail, Globe } from 'lucide-vue-next';
               data-aos-duration="700"
           >
             <MapPin />
-            <p>Carrera 65B# 2-51, Medellín, Ant.</p>
+            <p> Cra. 84 # 37B - 82, Medellín, Antioquia.</p>
           </a>
 
           <a
@@ -126,21 +126,16 @@ import { Facebook, Instagram, MapPin, Mail, Globe } from 'lucide-vue-next';
 .container-contact {
   background: url("../assets/contact.png") center no-repeat;
   background-size: cover;
-  /* Importante: usar min-height en lugar de height */
   min-height: 100vh;
 }
 
-/* Fondo oscuro del formulario */
 .container-contacto {
   background: rgba(0, 0, 0, 0.54);
 }
 
-/* Media query ejemplo para pantallas de hasta 768px */
 @media (max-width: 768px) {
   .container-contact {
-    /* Ajusta la posición para pantallas más pequeñas si quieres */
     background-position: top center;
-    /* Min-height se mantiene para permitir scroll */
   }
 }
 </style>

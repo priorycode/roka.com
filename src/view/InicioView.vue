@@ -10,6 +10,7 @@ import Recursos from "@/components/Recursos.vue"
 import Blog from "@/components/Blog.vue"
 import Contact from "@/components/Contact.vue"
 import BackToTop from "@/components/BackToTop.vue"
+import RecursosHuman from "@/components/RecursosHuman.vue";
 </script>
 
 <template>
@@ -29,7 +30,7 @@ import BackToTop from "@/components/BackToTop.vue"
 
     <Servicios/>
     <Gestion/>
-    <Recursos/>
+    <RecursosHuman/>
 
     <Blog/>
 
